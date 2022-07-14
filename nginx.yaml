@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: kodekloud/webapp-color
+        image: kodekloud/webapp-color:v2
         ports:
         - containerPort: 80
